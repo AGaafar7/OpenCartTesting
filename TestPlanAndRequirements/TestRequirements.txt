@@ -1,0 +1,101 @@
+1. Introduction
+This document defines the test requirements for the OpenCart website, focusing on the login system, customer management, orders, vouchers, and shop UI.
+
+2. Test Scope
+The testing will cover the following modules:
+
+User Login
+
+Customer Management
+
+Orders
+
+Vouchers
+
+Shop UI
+
+3. Functional Requirements
+
+3.1 User Login
+
+The system must allow users to register and log in with valid credentials.
+
+Invalid login attempts should display appropriate error messages.
+
+Password recovery functionality should work as expected.
+
+Two-factor authentication (if enabled) must function correctly.
+
+Users should be redirected to their account dashboard after successful login.
+
+Sessions should expire after a defined period of inactivity.
+
+3.2 Customer Management
+
+Admin should be able to view, edit, and delete customer records.
+
+Customers should be able to update their profile details.
+
+Email verification should be required upon registration.
+
+Customers should have a unique ID and order history tracking.
+
+Customer account statuses (active, inactive, banned) should be properly managed.
+
+3.3 Orders
+
+Users should be able to add items to the cart and proceed to checkout.
+
+Multiple payment methods should be supported (credit card, PayPal, bank transfer, etc.).
+
+Order confirmation emails should be sent upon successful purchase.
+
+Admin should be able to view, update, and cancel orders.
+
+Order status updates should be reflected in the customer dashboard.
+
+3.4 Vouchers
+
+Customers should be able to apply vouchers at checkout.
+
+Vouchers should have expiration dates and usage limits.
+
+Discount calculations should be accurate.
+
+Admin should be able to create, edit, and disable vouchers.
+
+Invalid or expired vouchers should display appropriate error messages.
+
+3.5 Shop UI
+
+The website should be responsive across devices and browsers.
+
+Product images should be high quality and properly aligned.
+
+Navigation menus should be user-friendly and accessible.
+
+Search and filter functionalities should return accurate results.
+
+Shopping cart and checkout UI should be intuitive and seamless.
+
+4. Non-Functional Requirements
+
+The system should handle at least 500 concurrent users without performance degradation.
+
+Data should be encrypted for security compliance.
+
+Page load times should be under 3 seconds.
+
+The UI should be WCAG-compliant for accessibility.
+
+5. Test Execution
+
+Test cases will be created based on these requirements.
+
+Issues will be tracked and reported in a defect management tool.
+
+Regression testing will be performed after major updates.
+
+6. Conclusion
+This document defines the key requirements for testing the OpenCart website's login, customer management, orders, vouchers, and shop UI. These requirements will guide the creation of detailed test cases to ensure a smooth and secure shopping experience.
+
