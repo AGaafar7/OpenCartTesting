@@ -1,0 +1,102 @@
+1. Introduction
+This test plan outlines the testing approach for the OpenCart demo website (https://www.opencart.com/index.php?route=cms/demo). The objective is to ensure the functionality, usability, performance, and security of the website.
+
+2. Scope
+This test plan covers the following aspects:
+
+Functional Testing
+
+UI/UX Testing
+
+Performance Testing
+
+Security Testing
+
+Compatibility Testing
+
+Regression Testing
+
+3. Test Objectives
+
+Verify the core functionalities of the website, including product browsing, cart management, checkout, and user authentication.
+
+Ensure a smooth user experience and responsive design.
+
+Test the website's performance under different loads.
+
+Check security vulnerabilities.
+
+Verify cross-browser and cross-device compatibility.
+
+4. Test Environment
+
+Browsers: Chrome, Firefox, Edge, Safari
+
+Devices: Desktop, Mobile, Tablet
+
+OS: Windows, macOS, Linux, Android, iOS
+
+Network: High-speed, moderate, low bandwidth
+
+5. Test Scenarios
+
+5.1 Functional Testing
+
+Verify user registration and login functionality.
+
+Validate product search and category navigation.
+
+Test adding/removing items from the cart.
+
+Verify checkout process with different payment methods.
+
+Ensure order confirmation and email notifications.
+
+Validate admin functionalities such as order management and product listing.
+
+5.2 UI/UX Testing
+
+Ensure proper alignment, colors, and fonts.
+
+Verify responsiveness on different screen sizes.
+
+Check accessibility compliance.
+
+5.3 Performance Testing
+
+Test page load times under different network conditions.
+
+Conduct stress testing with multiple concurrent users.
+
+Verify caching and database optimization.
+
+5.4 Security Testing
+
+Check for SQL injection and XSS vulnerabilities.
+
+Validate secure login and password encryption.
+
+Ensure proper session management.
+
+5.5 Compatibility Testing
+
+Test the website on different browsers and devices.
+
+Verify functionality on different screen resolutions.
+
+5.6 Regression Testing
+
+Re-run critical test cases after every update or bug fix.
+
+Ensure previously working features remain unaffected.
+
+6. Test Execution and Reporting
+
+Execute test cases based on priority.
+
+Log defects in a tracking system.
+
+Generate daily/weekly test reports.
+
+7. Conclusion
+The OpenCart demo website will be tested thoroughly to ensure optimal functionality, performance, security, and usability. Any issues found will be reported and tracked until resolution.
