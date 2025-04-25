@@ -17,5 +17,16 @@ public class testorderpadge extends TestBase {
         Thread.sleep(1000);
         Orderpage.checkclickonloginadminstration();
         Thread.sleep(1000);
+        Orderpage.checkclickonsale();
+        Thread.sleep(1000);
+        Orderpage.checkclickonorder();
+        Thread.sleep(1000);
+        Orderpage.checkfillorderid("555");
+        Thread.sleep(1000);
+        Orderpage.checkfillcustomername("osama");
+        Thread.sleep(1000);
+        Orderpage.checkfilltotal("200");
+        Thread.sleep(1000);
+        Orderpage.checkfilterbutton();
     }
 }
