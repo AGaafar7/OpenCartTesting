@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="fa0e942c-526d-4046-a6d0-639574f5dae6" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/BlogPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/PageBase.java" afterDir="false" />
@@ -15,6 +16,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+
+    <list default="true" id="3a4165fe-91de-43df-b36f-24991fc54c13" name="Changes" comment="add blog class and pagepase and testpase and order">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/agaafar/orderpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/orderpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testorderpadge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testorderpadge.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +43,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "git-widget-placeholder": "master",
@@ -64,4 +72,75 @@
   <component name="TaskManager">
     <servers />
   </component>
+
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AGaafar7&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AGaafar7/OpenCartTesting.git&quot;,
+    &quot;accountId&quot;: &quot;61e72d6c-871a-4a87-b516-d110183aad69&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2tmDDXtENtFkfQJXDGWFRsruEp2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;TestNG.TextBlogpage.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.testorderpadge.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Elfarouq mini Store/IdeaProjects/JavaApplication11&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a4165fe-91de-43df-b36f-24991fc54c13" name="Changes" comment="" />
+      <created>1740948238573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740948238573</updated>
+      <workItem from="1740948239851" duration="115000" />
+      <workItem from="1740948366748" duration="352000" />
+    </task>
+    <task id="LOCAL-00001" summary="add blog class and pagepase and testpase and order">
+      <option name="closed" value="true" />
+      <created>1745511368759</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745511368759</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add blog class and pagepase and testpase and order" />
+    <option name="LAST_COMMIT_MESSAGE" value="add blog class and pagepase and testpase and order" />
+  </component>
+
 </project>

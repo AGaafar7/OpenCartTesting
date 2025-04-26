@@ -3,6 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.agaafar.blogassert;
 public class TestBlogpage extends TestBase{
+
     Blogpage blogpage;
     blogassert Blogassert;
     @BeforeMethod
@@ -19,3 +20,4 @@ public class TestBlogpage extends TestBase{
         Assert.assertEquals(Blogassert.ActualResultAssert(),Blogassert.blogasserttext);
     }
 }
+
