@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+    <list default="true" id="fa0e942c-526d-4046-a6d0-639574f5dae6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/BlogPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/PageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/blogassert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/orderpage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AdminLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestBlogpage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testorderpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+
+    <list default="true" id="3a4165fe-91de-43df-b36f-24991fc54c13" name="Changes" comment="add blog class and pagepase and testpase and order">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/agaafar/orderpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/orderpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testorderpadge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testorderpadge.java" afterDir="false" />
+
+    </list>
+
     <list default="true" id="3a4165fe-91de-43df-b36f-24991fc54c13" name="Changes" comment="Adding StoreFront Partition" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,12 +41,42 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "master",
+    "node.js.selected.package.tslint": "(autodetect)"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="AdminLoginTest.testAdminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCartTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AdminLoginTest" />
+      <option name="METHOD_NAME" value="testAdminLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AdminLoginTest.testAdminLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -114,4 +165,5 @@
     <MESSAGE value="Adding StoreFront Partition" />
     <option name="LAST_COMMIT_MESSAGE" value="Adding StoreFront Partition" />
   </component>
+
 </project>

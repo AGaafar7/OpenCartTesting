@@ -6,6 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
     public class PageBase {
         WebDriver driver;
         public static long Wait = 60;
@@ -32,3 +33,4 @@ import org.openqa.selenium.support.ui.WebDriverWait;
             driver.findElement(element).click();
         }
 }
+

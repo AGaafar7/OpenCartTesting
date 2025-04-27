@@ -14,6 +14,3 @@ public class Blogpage extends PageBase{
     public void clickoncheckcontinuereading(){clickOnElement(clickcontinuereading);}
     public void clickoncheckcontinuereading2(){clickOnElement(clickcontinuereading2);}
 }
-
-
-
