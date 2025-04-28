@@ -14,25 +14,28 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+
+        <!-- Selenium -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>3.141.59</version>
+            <version>4.19.0</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
+        <!-- TestNG -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.14.3</version>
+            <version>7.10.1</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <!-- Driver Manager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
-            <version>5.5.3</version>
+            <version>5.7.0</version>
         </dependency>
+
     </dependencies>
 
 </project>

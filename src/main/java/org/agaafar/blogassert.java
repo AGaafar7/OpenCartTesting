@@ -11,4 +11,6 @@ public class blogassert extends PageBase {
     public String blogasserttext = "Search articles";
 
     By actualResult= By.id("blog-search");
+
     public String ActualResultAssert(){return driver.findElement(actualResult).getText();}}
+
