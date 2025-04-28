@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a4165fe-91de-43df-b36f-24991fc54c13" name="Changes" comment="order page">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/orderassert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/agaafar/Blogpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/Blogpage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/agaafar/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/agaafar/orderpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/agaafar/orderpage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testorderpadge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testorderpadge.java" afterDir="false" />
-    </list>
+    <list default="true" id="3a4165fe-91de-43df-b36f-24991fc54c13" name="Changes" comment="order page ubdate" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745545066196</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="order page ubdate">
+      <option name="closed" value="true" />
+      <created>1745872759476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745872759476</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add blog class and pagepase and testpase and order" />
     <MESSAGE value="order page" />
-    <option name="LAST_COMMIT_MESSAGE" value="order page" />
+    <MESSAGE value="order page ubdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="order page ubdate" />
   </component>
 </project>
