@@ -31,4 +31,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
             waitTimeToBeClickable(element);
             driver.findElement(element).click();
         }
-}
+        public void scrollDown(int scrollamount) {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.scrollBy(0,"+scrollamount+");");
+        }
+        public void selectfromDropDownList(By element,String option){
+            Select options = new Select(driver.findElement(element));
+            options.selectByVisibleText(option);
+        }
+    }
+

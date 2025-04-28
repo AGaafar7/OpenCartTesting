@@ -18,7 +18,6 @@ public class TestBase {
         driver = new ChromeDriver(options);
         driver.get("https://www.opencart.com/index.php?route=cms/demo");
         System.out.println(driver.getCurrentUrl());
-
     }
 
     @AfterMethod
