@@ -7,7 +7,7 @@ import org.openqa.selenium.Keys;
 
 public class ProductImagePage extends PageBase {
     // Locators
-    private final By storeFrontLink = By.xpath("//a[contains(.,'Store Front')]");
+    private final By storeFrontLink = By.xpath("//*[@id='cms-demo']/div[2]/div/div[1]/div");
     private final By productLink = By.linkText("Canon EOS 5D");
     private final By productImage = By.cssSelector(".thumbnails img");
     private final By imageModal = By.id("image-modal");

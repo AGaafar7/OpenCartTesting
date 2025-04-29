@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class CartPage extends PageBase {
-    private By storeFrontLink = By.xpath("//a[contains(.,'Store Front')]");
+    private final By storeFrontLink = By.xpath("//*[@id='cms-demo']/div[2]/div/div[1]/div");
     private final By addToCartBtn = By.cssSelector("button#button-cart");
     private final By cartTotal = By.id("cart-total");
     private final By viewCart = By.linkText("View Cart");
