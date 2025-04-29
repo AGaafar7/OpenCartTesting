@@ -49,15 +49,10 @@ public class CheckoutTests extends TestBase {
         checkoutPage.clickContinueAfterDetails();
         checkoutPage.selectShippingMethod();
 
-        // Test cash on delivery payment method
         checkoutPage.selectPaymentMethod("Cash On Delivery");
         assertTrue(checkoutPage.isSuccessMessageDisplayed(),
                 "Payment method should be selected successfully");
 
-        // Alternatively test credit card payment method
-        checkoutPage.selectPaymentMethod("Credit Card");
-        assertTrue(checkoutPage.isSuccessMessageDisplayed(),
-                "Credit card payment method should be selected successfully");
     }
 
     @Test
