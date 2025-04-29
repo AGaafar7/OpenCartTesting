@@ -17,6 +17,7 @@ public class TestBase {
         options.addArguments("--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
         driver.get("https://www.opencart.com/index.php?route=cms/demo");
+        Thread.sleep(2000);
         System.out.println(driver.getCurrentUrl());
     }
 

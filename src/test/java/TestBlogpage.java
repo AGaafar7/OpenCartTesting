@@ -2,6 +2,8 @@ import org.agaafar.Blogpage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.agaafar.blogassert;
+import org.testng.annotations.Test;
+
 public class TestBlogpage extends TestBase{
 
     Blogpage blogpage;
@@ -12,6 +14,7 @@ public class TestBlogpage extends TestBase{
         Blogassert  = new blogassert(driver);
     }
 
+    @Test
     public void login()throws InterruptedException{
         blogpage.clickoncheckclickBlog();
         Thread.sleep(1000);

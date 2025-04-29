@@ -16,6 +16,7 @@ public class testorderpadge extends TestBase {
     }
     @Test
     public void loginorderoagewithvalidinformation()throws InterruptedException{
+        Thread.sleep(10000);
         Orderpage.checkclickonadminstration();
         Thread.sleep(1000);
         Orderpage.checkclickonloginadminstration();

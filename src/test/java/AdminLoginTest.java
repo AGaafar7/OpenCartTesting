@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class AdminLoginTest {
     WebDriver driver;
@@ -17,9 +18,12 @@ public class AdminLoginTest {
 
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-        driver.get("https://demo.opencart.com/admin/");
+       // driver.get("https://demo.opencart.com/admin/");
+        driver.get("https://www.opencart.com/index.php?route=cms/demo");
+
     }
 
     @Test

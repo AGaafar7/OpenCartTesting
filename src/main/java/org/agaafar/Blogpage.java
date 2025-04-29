@@ -10,6 +10,8 @@ public class Blogpage extends PageBase{
     By clickcontinuereading= By.xpath("//a[@class=\"btn btn-primary hidden-xs\"]");
 
 
-    public void clickoncheckclickBlog(){clickOnElement(clickBlog);}
+    public void clickoncheckclickBlog(){clickOnElement(clickBlog);
+    scrollDown(100);
+    }
     public void clickoncheckcontinuereading(){clickOnElement(clickcontinuereading);}
 }

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a4165fe-91de-43df-b36f-24991fc54c13" name="Changes" comment="order page ubdate" />
+    <list default="true" id="3a4165fe-91de-43df-b36f-24991fc54c13" name="Changes" comment="orderpageassert">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AdminLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AdminLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestBlogpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBlogpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testorderpadge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testorderpadge.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,25 +55,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.TextBlogpage.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.testorderpadge.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.testorderpadge.loginorderoage.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Elfarouq mini Store/IdeaProjects/course&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.AdminLoginTest.testAdminLogin.executor": "Run",
+    "TestNG.TestBlogpage.login.executor": "Run",
+    "TestNG.TextBlogpage.executor": "Run",
+    "TestNG.testorderpadge.executor": "Run",
+    "TestNG.testorderpadge.loginorderoage.executor": "Run",
+    "TestNG.testorderpadge.loginorderoagewithvalidinformation.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Elfarouq mini Store/IdeaProjects/course",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="TestNG.TestBlogpage.login">
+    <configuration name="AdminLoginTest.testAdminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCartTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AdminLoginTest" />
+      <option name="METHOD_NAME" value="testAdminLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBlogpage.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCartTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBlogpage" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testorderpadge.loginorderoage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenCartTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -79,8 +113,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="testorderpadge.loginorderoagewithvalidinformation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenCartTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="testorderpadge" />
+      <option name="METHOD_NAME" value="loginorderoagewithvalidinformation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestBlogpage.login" />
+        <item itemvalue="TestNG.testorderpadge.loginorderoagewithvalidinformation" />
+        <item itemvalue="TestNG.AdminLoginTest.testAdminLogin" />
         <item itemvalue="TestNG.testorderpadge.loginorderoage" />
       </list>
     </recent_temporary>
@@ -120,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745872759476</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="orderpageassert">
+      <option name="closed" value="true" />
+      <created>1745873378390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745873378391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +187,7 @@
     <MESSAGE value="add blog class and pagepase and testpase and order" />
     <MESSAGE value="order page" />
     <MESSAGE value="order page ubdate" />
-    <option name="LAST_COMMIT_MESSAGE" value="order page ubdate" />
+    <MESSAGE value="orderpageassert" />
+    <option name="LAST_COMMIT_MESSAGE" value="orderpageassert" />
   </component>
 </project>
